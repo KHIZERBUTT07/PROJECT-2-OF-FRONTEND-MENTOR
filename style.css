@@ -208,13 +208,22 @@
     height: 10rem;
     width: 10rem;
     padding: 20px;
-    font-weight: 200;
+    font-weight: 600;
     background: linear-gradient(
       hsla(256, 72%, 46%, 1),
       hsla(241, 72%, 46%, 0)
     );
     font-family: "Hanken Grotesk", sans-serif;
   }
+  .percent:hover{
+    animation: spin 2s linear infinite;
+    /* border: 4px dotted rgb(86, 56, 255);
+    border-top: 4px dotted red; */
+  }
+  @keyframes spin {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
   .percent span {
     font-weight: 800;
     font-family: "Hanken Grotesk", sans-serif;
