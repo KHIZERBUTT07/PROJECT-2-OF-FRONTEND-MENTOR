@@ -82,11 +82,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 80vh;
     box-shadow: 0.5rem 1rem 3rem hsl(var(--clr-neutral-hsl-700), 0.2);
     border-radius: 30px;
   }
+  
   .blue-sec {
     display: flex;
     justify-content: space-evenly;
