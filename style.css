@@ -290,7 +290,7 @@
       align-items: center; */
       flex-direction: column;
     }
-    .blue-sec h2 {
+    .result-heading{
       padding-bottom: 20px;
       text-align: center;
       font-size: 20px;
@@ -308,8 +308,9 @@
     p {
       width: 96%;
       padding-top: 50px;
+      
     }
-    h1 {
+    h2 {
       padding-top: 20px;
     }
     .percent {
